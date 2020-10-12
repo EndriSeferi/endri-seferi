@@ -1,38 +1,209 @@
-.App {
+/****************************************************Home Page*/
+.Portfolio{
+ height: 100vh;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+.information{
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  color: white;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
+  margin-top: 30%;
+}
+.information h1{
+  margin: 2%;
+}
+.links{
+  margin: 12%;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  font-size: 1.5rem;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+.links i{
+  color: grey;
+  transition: ease-in-out 300ms;
+}
+.links i:hover{
+  color: red;
+  font-size: 1.8rem;
+}
+.changing-text{
+  margin-top: 5%;
+  color: white;
+  opacity: 0.8;
+  text-align: center;
+}
+.changing-text:hover{
+  opacity: 1;
+}
+
+/***************************************************About me Page*/
+.aboutme{
+  height: 100vh;
+  
+}
+.about{
+  color: white;
+  text-decoration: none;
+  opacity: 0.8;
+  transition: ease-in-out 300ms;
+}
+.about:hover{
+  opacity: 1;
+  font-size: 1.2rem;
+}
+.nav-home{
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: white;
+  position: fixed;
+  top: 2%;
+  left: 2%;
+  opacity: 0.5;
+  z-index: 99;
+  transition: ease-in-out 300ms;
+}
+.nav-home:hover{
+  opacity: 1;
+  font-size: 2rem;
+}
+.bio{
+  padding: 5%;
+  text-align: center;
+  color: white;
+  opacity: 0.8;
+  line-height: 1.5rem;
+}
+.bio h2{
+  margin-top: 20%;
+}
+.endri{
+  margin-top: 20%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  font-size: 3vw;
+}
+.endri img{
+  height: 200px;
+  margin-bottom: 10%;
+  border: 2px solid rgb(213, 212, 212);
+  animation: pic 3s;
+}
+.endri p{
+  background: rgb(213, 212, 212);
+  color: black;
+}
+/***************************************************Projects Page*/
+.projects{
+  width: 100%;
+  height: 100vh;
+}
+.slider{
+  width: 100%;
+  height: 100vh;
   align-items: center;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.slider h2{
   color: white;
 }
+/***************************************************Card Page*/
+.card{
+  width: 100%;
+  height: 350px;
+  border: 2px solid black;
+  background: rgb(206, 206, 206);
+  color: black;
+  margin: 40px 20px;
+  display: flex;
+ flex-direction: column;
+  align-items: center;
+}
+.card-title{
+  margin-top: 1%;
+}
+.card-image{
+  width: 100%;
+  margin-top: 2%;
+}
+.card-image img{
+  width: 100%;
+  height: 200px;
+}
+.card-info{
+  width: 100%;
+  height: 150px;
+  text-align: center;
+}
+.card-info p{
+  border-top: 2px solid black;
+  height: 80px;
+  font-size: 0.5rem;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.card-info a{
+  text-decoration: none;
+  border: 2px solid grey;
+  color: grey;
+  transition: ease-in-out 200ms;
+}
+.card-info a:hover{
+  border: 2px solid black;
+  color: black;
+}
+/**********************************************Fixing the max window elements*/
+@media only screen and (min-width: 900px) {
+  .information{
+    margin-top: 10%;
+  }
+  .links{
+    margin: 0;
+    margin: 1% 20%;
+  }
+  .changing-text{
+    margin-top: 2%;
+  } 
+  .bio{
+    line-height: 3rem;
+  }
+  .bio h2{
+    margin: 0;
+  }
+  .card-info p{
+    font-size: 0.8rem;
+  }
+  
+}
+@media only screen and (min-width: 600px) {
+  .endri{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    font-size: 2vw;
+  }
+  .endri img{
+    height: 30vw;
+  }
 
-.App-link {
-  color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@keyframes pic{
+  from{
+    opacity: 0;
   }
-  to {
-    transform: rotate(360deg);
+  to{
+    opacity: 1;
   }
 }

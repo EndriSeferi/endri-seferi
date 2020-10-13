@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/endri-seferi/static/css/main.9d620c7e.chunk.css",
-    "main.js": "/endri-seferi/static/js/main.f8f15f6c.chunk.js",
-    "main.js.map": "/endri-seferi/static/js/main.f8f15f6c.chunk.js.map",
+    "main.js": "/endri-seferi/static/js/main.a9e7a489.chunk.js",
+    "main.js.map": "/endri-seferi/static/js/main.a9e7a489.chunk.js.map",
     "runtime-main.js": "/endri-seferi/static/js/runtime-main.9133be04.js",
     "runtime-main.js.map": "/endri-seferi/static/js/runtime-main.9133be04.js.map",
     "static/js/2.8d48d59b.chunk.js": "/endri-seferi/static/js/2.8d48d59b.chunk.js",
     "static/js/2.8d48d59b.chunk.js.map": "/endri-seferi/static/js/2.8d48d59b.chunk.js.map",
     "index.html": "/endri-seferi/index.html",
-    "precache-manifest.3ecca0d5b0e3094d1b5b4e114a6217dd.js": "/endri-seferi/precache-manifest.3ecca0d5b0e3094d1b5b4e114a6217dd.js",
+    "precache-manifest.68c8a06ebe0d601f2fb24f5ea3377d0d.js": "/endri-seferi/precache-manifest.68c8a06ebe0d601f2fb24f5ea3377d0d.js",
     "service-worker.js": "/endri-seferi/service-worker.js",
     "static/css/main.9d620c7e.chunk.css.map": "/endri-seferi/static/css/main.9d620c7e.chunk.css.map",
     "static/js/2.8d48d59b.chunk.js.LICENSE.txt": "/endri-seferi/static/js/2.8d48d59b.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.9133be04.js",
     "static/js/2.8d48d59b.chunk.js",
     "static/css/main.9d620c7e.chunk.css",
-    "static/js/main.f8f15f6c.chunk.js"
+    "static/js/main.a9e7a489.chunk.js"
   ]
 }

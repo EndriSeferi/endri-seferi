@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/endri-seferi/precache-manifest.3ecca0d5b0e3094d1b5b4e114a6217dd.js"
+  "/endri-seferi/precache-manifest.68c8a06ebe0d601f2fb24f5ea3377d0d.js"
 );
 
 self.addEventListener('message', (event) => {

@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "468e979a5dad3df11da1cd5c43e4f1d1",
+    "revision": "2cc11827a95a7186a7efe7151a0107db",
     "url": "/endri-seferi/index.html"
   },
   {
-    "revision": "79e9308777de0bcc7f36",
+    "revision": "156ea4060e6567e01102",
     "url": "/endri-seferi/static/css/main.9d620c7e.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/endri-seferi/static/js/2.8d48d59b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "79e9308777de0bcc7f36",
-    "url": "/endri-seferi/static/js/main.a9e7a489.chunk.js"
+    "revision": "156ea4060e6567e01102",
+    "url": "/endri-seferi/static/js/main.7873bc8b.chunk.js"
   },
   {
     "revision": "51abbab379b5d5066e1c",
